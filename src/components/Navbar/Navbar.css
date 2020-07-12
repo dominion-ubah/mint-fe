@@ -27,7 +27,7 @@ color: #1875F0 !important;
 .c_search {
     border: none !important;
     background: transparent !important;
-    font-size: 12px;
+    font-size: 14px !important;
     line-height: 16px;
 
     color: #979797;

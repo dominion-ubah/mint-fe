@@ -1,0 +1,65 @@
+.c_sidebar {
+    background: #FFFFFF;
+    height: 100vh;
+    min-width: 260px !important;
+    padding-top: 9em;
+
+    /* Text */
+    font-size: 11px;
+line-height: 15px;
+color: #647787;
+}
+
+.c_side_btn {
+/* container */
+width: 163px;
+height: 33px;
+    background: #27AE60;
+border-radius: 30px;
+
+/* text */
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+/* line-height: 14px; */
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+}
+
+.c_side_list a{
+    font-size: 13px !important;
+    /* Text */
+    color: #647787;
+    vertical-align:middle;
+}
+.c_side_list a:hover{
+    text-decoration: none;
+    color: black;
+}
+.c_side_list li.active {
+    background: rgba(24, 117, 240, 0.1);
+    border-left: 0.5em solid #1875F0;
+}
+.c_side_list p{
+    font-size: 12px !important;
+    line-height: 15px;
+    margin: 1em 3em;
+    /* Text */
+    color: #647787;
+}
+.c_side_list li{
+    padding: 0.9em 3em !important;
+    margin: 0 !important;
+    list-style: none;
+    line-height: 19px !important;
+}
+.c_side_list ul{
+    padding:0 !important;
+    margin:0 !important;
+    margin-bottom: 3em !important;
+}

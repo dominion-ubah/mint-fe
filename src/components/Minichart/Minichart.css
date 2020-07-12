@@ -1,0 +1,30 @@
+.c_mini_card {
+    background: #FFFFFF;
+border: 1px solid #EEF8FD;
+box-sizing: border-box;
+border-radius: 2px;
+padding: 0.8em;
+}
+
+.c_small_txt {
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+margin: 0;
+padding: 0;
+color: #787C90;
+
+}
+.c_large_txt {
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: #262626;
+}

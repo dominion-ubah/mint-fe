@@ -1,7 +1,13 @@
 .app {
     /* font-family: Segoe UI; */
+    background: #F7F8FA;
 }
 
 .c_overflow {
     overflow: hidden;
+}
+
+.c_contain {
+    margin: 4em 2em ;
+    width: 100%;
 }
