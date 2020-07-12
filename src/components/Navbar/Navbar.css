@@ -1,0 +1,49 @@
+.c_navbar {
+    background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+}
+.c_navbar  li{
+    font-size: 14px;
+line-height: 19px;
+
+/* Text */
+color: #647787;
+}
+
+.c_title_txt {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Roboto; */
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: right;
+
+color: #1875F0 !important;
+}
+
+.c_search {
+    border: none !important;
+    background: transparent !important;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #979797;
+}
+
+.c_nav_txt_small {
+    font-size: 10px;
+line-height: 13px;
+
+color: #647787;
+}
+
+.c_nav_txt_med {
+    font-size: 14px;
+    line-height: 19px;
+    /* Text */
+    
+    color: #647787;
+}
