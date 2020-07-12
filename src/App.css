@@ -3,6 +3,16 @@
     background: #F7F8FA;
 }
 
+.c_green {
+    color: #27AE60;
+}
+.c_yellow {
+    color: #FDC203;
+}
+.c_blue {
+    color: #1875F0;
+}
+
 .c_overflow {
     overflow: hidden;
 }
