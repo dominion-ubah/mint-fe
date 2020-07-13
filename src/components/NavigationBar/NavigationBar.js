@@ -23,7 +23,7 @@ const mo = require('../../assets/mo.svg');
 
 export default function NavigationBar({setIsOpenSideAR}) {
     const [isOpen, setIsOpen] = useState(false);
-    const [isOpenSide, setIsOpenSide] = useState(false);
+    const [isOpenSide, setIsOpenSide] = useState(true);
     const toggle = () => setIsOpen(!isOpen);
 
     useEffect(() => {
