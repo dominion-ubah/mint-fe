@@ -8,7 +8,7 @@ import Orderchart from './components/Orderchart/Orderchart';
 import Table from './components/Table/Table';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const setIsOpenSideA = (a) => {
     console.log('sd', a)
     setIsOpen(a)

@@ -14,7 +14,6 @@ const ico9 = require('../../assets/ico9.svg');
 export default function Sidebar({isOpened}) {
     return (
         <div className={isOpened?"c_sidebar":" c_translate"}>
-        {console.log('we', isOpened)}
             <div className="c_side_btn ml-4">
                 GENERATE INVOICE
             </div>
