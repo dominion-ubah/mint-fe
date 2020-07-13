@@ -1,4 +1,4 @@
-.c_max_card {
+.c_max_card_table {
     background: #FFFFFF;
     border: 1px solid #EEF8FD;
     box-sizing: border-box;
@@ -79,3 +79,12 @@ color: #414042;
 .c_table_drop_ico {
     margin-top: -1.2em;
 }
+
+@media only screen and (max-width: 600px) {
+    .c_max_card_table {
+        width: 330px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+  }
+

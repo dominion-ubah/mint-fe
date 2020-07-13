@@ -32,7 +32,7 @@ export default function Largechart({}) {
                 </div>
 
             <div style={{marginTop:"-1.5em"}}> 
-                <img src={lg_c} alt="chart2" />
+                <img src={lg_c} className="img-fluid" alt="chart2" />
             </div>
         </div>
     )

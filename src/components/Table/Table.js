@@ -65,11 +65,11 @@ export default function Table({}) {
     return (
         <div>
             <div>
-                <div className="d-flex">
+                <div className="d-flex flex-column flex-md-row">
                     <div>
                     <p  className="c_tab_head_txt1 mr-md-5">Showing <span className="mx-4">20 </span> out of 500 payments</p>
                     </div>
-                    <div className="d-flex">
+                    <div className="d-flex mb-4">
                     <span><img className="mr-md-2" width="80%" src={search_ico} alt="search"/></span>
                         <input type="text" className="c_tab_form" alt="pay" placeholder="Search Payments" />
                     
@@ -87,30 +87,30 @@ export default function Table({}) {
                     
                 </div>
             </div>
-            <div className="c_max_card w-100 mt-4">
+            <div className="c_max_card_table mt-4">
                 <div className="c_tb_head">
                     <div className="row">
                         <div className="col-md-4 ">
                             <p className="pl-3">Item Type</p>
                         </div>
                         <div className="col-md-2">
-                            <p>Price</p>
+                            <p className="pl-3">Price</p>
                         </div>
                         <div className="col-md-2">
-                            <p>Transaction</p>
+                            <p className="pl-3">Transaction</p>
                         </div>
                         <div className="col-md-1">
-                            <p>Time</p>
+                            <p className="pl-3">Time</p>
                         </div>
                         <div className="col-md-3">
-                            <p>Status</p>
+                            <p className="pl-3">Status</p>
                         </div>
                     </div>
                 </div>
-                <div className="row c_table_detail border-bottom">
+                <div className="row c_table_detail border-bottom px-3 pb-2">
                     <div className="col-md-4 d-flex align-content-center py-3 " >
-                            <img src={vw} alt="vw" width="10%" className="ml-2"/>
-                            <p className="one mx-md-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
+                            <img src={vw} alt="vw" width="10%" className=""/>
+                            <p className="one mx-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
                     </div>
                     <div className="col-md-2 mt-4">
                         <p className="pt-2">$73430</p>
@@ -129,10 +129,10 @@ export default function Table({}) {
                         <img src={chev} className="float-right mr-md-5 c_table_drop_ico" alt="btnl" width="5%" />
                     </div>
                 </div>
-                <div className="row c_table_detail border-bottom">
+                <div className="row c_table_detail border-bottom px-3 pb-2">
                     <div className="col-md-4 d-flex align-content-center py-3 " >
-                            <img src={vw} alt="vw" width="10%" className="ml-2"/>
-                            <p className="one mx-md-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
+                            <img src={vw} alt="vw" width="10%" className=""/>
+                            <p className="one mx-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
                     </div>
                     <div className="col-md-2 mt-4">
                         <p className="pt-2">$73430</p>
@@ -151,10 +151,10 @@ export default function Table({}) {
                         <img src={chev} className="float-right mr-md-5 c_table_drop_ico" alt="btnl" width="5%" />
                     </div>
                 </div>
-                <div className="row c_table_detail border-bottom">
+                <div className="row c_table_detail border-bottom px-3 pb-2">
                     <div className="col-md-4 d-flex align-content-center py-3 " >
-                            <img src={vw} alt="vw" width="10%" className="ml-2"/>
-                            <p className="one mx-md-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
+                            <img src={vw} alt="vw" width="10%" className=""/>
+                            <p className="one mx-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
                     </div>
                     <div className="col-md-2 mt-4">
                         <p className="pt-2">$73430</p>
@@ -173,10 +173,10 @@ export default function Table({}) {
                         <img src={chev} className="float-right mr-md-5 c_table_drop_ico" alt="btnl" width="5%" />
                     </div>
                 </div>
-                <div className="row c_table_detail border-bottom">
+                <div className="row c_table_detail border-bottom px-3 pb-2">
                     <div className="col-md-4 d-flex align-content-center py-3 " >
-                            <img src={vw} alt="vw" width="10%" className="ml-2"/>
-                            <p className="one mx-md-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
+                            <img src={vw} alt="vw" width="10%" className=""/>
+                            <p className="one mx-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
                     </div>
                     <div className="col-md-2 mt-4">
                         <p className="pt-2">$73430</p>
@@ -195,10 +195,10 @@ export default function Table({}) {
                         <img src={chev} className="float-right mr-md-5 c_table_drop_ico" alt="btnl" width="5%" />
                     </div>
                 </div>
-                <div className="row c_table_detail border-bottom">
+                <div className="row c_table_detail border-bottom px-3 pb-2">
                     <div className="col-md-4 d-flex align-content-center py-3 " >
-                            <img src={vw} alt="vw" width="10%" className="ml-2"/>
-                            <p className="one mx-md-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
+                            <img src={vw} alt="vw" width="10%" className=""/>
+                            <p className="one mx-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
                     </div>
                     <div className="col-md-2 mt-4">
                         <p className="pt-2">$73430</p>
@@ -217,10 +217,10 @@ export default function Table({}) {
                         <img src={chev} className="float-right mr-md-5 c_table_drop_ico" alt="btnl" width="5%" />
                     </div>
                 </div>
-                <div className="row c_table_detail border-bottom">
+                <div className="row c_table_detail border-bottom px-3 pb-2">
                     <div className="col-md-4 d-flex align-content-center py-3 " >
-                            <img src={vw} alt="vw" width="10%" className="ml-2"/>
-                            <p className="one mx-md-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
+                            <img src={vw} alt="vw" width="10%" className=""/>
+                            <p className="one mx-2 mt-3" >Apple Mac Book 15" 250 SSD 12GB</p>
                     </div>
                     <div className="col-md-2 mt-4">
                         <p className="pt-2">$73430</p>

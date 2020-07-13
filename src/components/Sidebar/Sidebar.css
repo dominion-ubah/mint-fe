@@ -8,6 +8,13 @@
     font-size: 11px;
 line-height: 15px;
 color: #647787;
+transition: 500ms ease-in-out;
+}
+
+.c_translate {
+    transform: translateX(-1000px);
+    display: none;
+    transition: 500ms ease-in-out;
 }
 
 .c_side_btn {
