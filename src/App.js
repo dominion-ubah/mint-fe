@@ -22,7 +22,7 @@ function App() {
             <Minichart value={"452,000"}/>
             <Minichart value={"₦4,000,000"}/>
           </div>
-          <div className="d-flex">
+          <div className="d-flex flex-sm-column flex-md-row">
               <div>
                 <Largechart />
               </div>
