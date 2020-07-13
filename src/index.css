@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form {
+  outline: none !important;
+}
+
+
+.css-2b097c-container {
+  width: 180px;
+  max-height: 30px !important;
+  margin-top: -0.8em;
+  margin-left: 0.5em;
+}
+.css-yk16xz-control {
+  height: 100% !important;
+}
+
+.css-26l3qy-menu {
+  background: #C4C4C4;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+border-radius: 0px 0px 6px 6px;
+}
+
+.css-1pahdxg-control {
+  
+}
+.css-26l3qy-menu {
+  background: #FFFFFF !important;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15) !important;
+border-radius: 0px 0px 6px 6px !important;
+}
+
+.css-g1d714-ValueContainer {
+  height: 30px !important;
+  font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #414042;
+
+}

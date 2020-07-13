@@ -1,0 +1,23 @@
+.c_btn_circle {
+    display: flex;
+    width: 120px;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #CCCFD4;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.c_btn_circle p{
+    padding: 0.5em 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.c_circle {
+    width: 10px;
+    height: 10px;
+    margin-top: 0.7em;
+    margin-right: 0.4em;
+    border-radius: 50%;
+
+}

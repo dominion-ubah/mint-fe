@@ -22,7 +22,16 @@ export default function Largechart({}) {
                     
                 </div>
             </div>
-            <div>
+                <div className="d-flex justify-content-around w-100 c_chart_tag">
+                    <div>Jan</div>
+                    <div>Feb</div>
+                    <div>Mar</div>
+                    <div>Apr</div>
+                    <div>May</div>
+                    <div>Jan</div>
+                </div>
+
+            <div style={{marginTop:"-1.5em"}}> 
                 <img src={lg_c} alt="chart2" />
             </div>
         </div>

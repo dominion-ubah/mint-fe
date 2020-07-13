@@ -4,10 +4,10 @@
 }
 
 .c_green {
-    color: #27AE60;
+    color: #27AE60 !important;
 }
 .c_yellow {
-    color: #FDC203;
+    color: #FDC203 !important;
 }
 .c_blue {
     color: #1875F0;
@@ -18,6 +18,21 @@
 }
 
 .c_contain {
-    margin: 4em 2em ;
+    margin: 4em 2em 0 2em ;
     width: 100%;
+    height: 90vh;
+    overflow: hidden;
 }
+.c_contain_scroll{
+    overflow-y: scroll  !important;
+    height: 100%;
+}
+
+.maxive_txt {
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    color: #262626;
+}
+

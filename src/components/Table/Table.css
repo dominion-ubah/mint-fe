@@ -1,0 +1,81 @@
+.c_max_card {
+    background: #FFFFFF;
+    border: 1px solid #EEF8FD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    
+}
+
+.c_tb_head {
+    background: #EAEEF0;
+    padding-top: 10px;
+}
+.c_tab_head_txt1 {
+    font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #262626;
+}
+.c_tab_head_txt2 {
+    font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+color: #262626;
+}
+.c_tb_head p{
+    font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #7F8FA4;
+}
+
+.c_tab_form {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #7F8FA4;
+    width: 330px;
+    margin-top: -1em !important;
+    vertical-align: middle;
+    font-size: 13px;
+line-height: 10px;
+
+color: #787878;
+padding:0;
+}
+
+.col_bord{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px  solid red;
+}
+.c_table_detail p{
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: #7F8FA4;
+}
+.c_table_detail p.one{
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: flex-end;
+
+color: #414042;
+}
+
+.c_table_drop_ico {
+    margin-top: -1.2em;
+}
